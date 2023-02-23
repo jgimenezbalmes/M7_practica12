@@ -16,7 +16,7 @@ class ControladorAdmin extends Controller
         return view('Admin.mensajeClientes')->with(['text'=>'Aquesta és la pàgina de clients']);
     }
     public function facturacion(){
-        return view('Admin.mensajeFacturacion')->with(['text'=>'Aquesta és la pàgina de facturació']);
+        return view('Admin.mensajeFacturacion')->with(['text'=>'Aquesta és la pàgina de facturació']); 
     }
     public function contabilidad(){
         return view('Admin.mensajeContabilidad')->with(['text'=>'Aquesta és la pàgina de comptabilitat']);
